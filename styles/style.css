@@ -1,0 +1,322 @@
+:root{
+    --noto: "NotoSans";
+    --black:#313131;
+    --white:#fff;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav-link{
+    padding: 0 30px !important;
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--white);
+}
+.nav-link:hover{
+    background: #9297EF;
+    color: var(--white);
+    border-radius: 5px;
+}
+.service__icon{
+    padding-right: 8px;
+}
+.search__box{
+    padding-left: 143px;
+}
+.form-control{
+    width: 400px !important;
+}
+.btn{
+    background: var(--black);
+    color: var(--white);
+    border: none;
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+.nav-link1{
+    padding: 0 30px !important;
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 70px;
+    color: var(--black);;
+}
+.nav-link1:hover{
+    background: #9297EF;
+    color: var(--white);
+    border-radius: 5px;
+}
+.carousel-text{
+    font-family: var(--noto);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    padding: 100px 0;
+}
+.carousel-btn{
+    width: 190px;
+    height: 50px;
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.carousel-btn:hover{
+    background: #9297EF;
+    color: var(--black);
+    border: none;
+}
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    background: var(--black) !important;
+    border-radius: 50% !important;
+    border: none !important;
+}
+.discount-content{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 250px);
+    grid-gap: 30px;
+    padding: 50px;
+}
+.discount__box{
+    border-radius: 6px;
+    background: #F9F9F9; 
+}
+.discount__box:nth-child(1){
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.discount__box:nth-child(2){
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.discount__bg{
+    width: 100%;
+    height: 100%;
+}
+.discount__airpods{
+    height: 100%;
+}
+.discount-info__watch{
+    top: 400px;
+    left: 20px;
+}
+.discount-info__airpods{
+    bottom: 15px;
+    left: 20px;
+}
+.discount-info__power{
+    bottom: 85px;
+    left: 20px;
+}
+.discount-info__remax{
+    bottom: 120px;
+    left: 20px;
+}
+.discount__title{
+    font-family: var(--noto);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.discount__title1{
+    font-family: var(--noto);
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 35px;
+    line-height: 30px;
+}
+.discount__text{
+    font-family: var(--noto);
+    font-weight: 300;
+    font-size: 24px;
+}
+.aksiya{
+    top: 10px;
+    left: 20px;
+    background: var(--black);
+    color: var(--white);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.aksiya1{
+    bottom: 10px;
+    left: 20px;
+    background: var(--black);
+    color: var(--white);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.bot__button{
+    width: 190px;
+    height: 50px;
+}
+.btn{
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.btn:hover{
+    background: #9297EF;
+}
+.phones, .laptops{
+    padding-top: 70px;
+}
+.title, .l__title{
+    font-family: var(--noto);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    padding-bottom: 30px;
+}
+.phones__box{
+    padding-right: 30px;
+    padding-bottom: 90px;
+}
+.phones__bg{
+    width: 100%;
+    height: 100%;
+}
+.laptop__bg{
+    width: 100%;
+    height: 100%;
+}
+.phones__info{
+    padding-left: 60px;
+}
+.laptop__info{
+    padding-left: 50px;
+}
+.phones__title, .laptop__title{
+    font-family: var(--noto);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--black);
+    line-height: 22px;
+    
+}
+.phones__text, .laptop__text{
+    font-family: var(--noto);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+.laptop__box{
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+.playstation{
+    padding-top: 80px;
+}
+.playstation__info{
+    padding-top: 94px;
+}
+.playstation__title{
+    font-family: var(--noto);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    padding-top: 20px;
+}
+.watches{
+    padding-top: 70px;
+}
+.w__title{
+    font-family: var(--noto);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+}
+.watches__content{
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+.watches__box{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.watches__title{
+    font-family: var(--noto);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.watches__text{
+    font-family: var(--noto);
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+.footer__info button{
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 190px;
+    border: 1px solid #FFFFFF;
+    border-radius: 0;
+}
+.footer__info input{
+    border-radius: 0;
+}
+.footer__text{
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white);
+}
+.nav-link2{
+    padding: 0 30px !important;
+    font-family: var(--noto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white);
+}
+.nav-link2:hover{
+    background: #9297EF;
+    color: var(--white);
+    border-radius: 5px;
+}
+.service__icon1{
+    color: var(--white);
+    font-size: 35px;
+    width: 42px;
+    height: 38px;
+    padding: 0 24px;
+}
+
+
+
+
